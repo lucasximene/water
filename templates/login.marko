@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title> Login </title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d9770b3dac.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+<!--PRIMEIRA PÁGINA-->
+<div class="container">
+    <div class="content first-content">
+        <div class="first-column">
+        <h2 class="title title-primany"> Bem Vindo De Volta!</h2>
+        <p class="description description-primary">Para se manter conectado conosco</p>
+        <p class="description description-primary">por favor, faça o login com suas informações pessoais</p>
+        <button id="signin" class="btn btn-primary">Entrar</button>
+    </div>
+        <div class="second-column">
+            <h2 class="title title-second">Criar Conta</h2>
+            <div class="social-media">
+               <ul class="list-social-media">
+                <a class="link-social-media" href="#">
+                   <li class="item-social-media">
+                       <i class="fab fa-facebook-f"></i>
+                   </li>
+                </a>
+                <a class="link-social-media" href="#">
+                   <li class="item-social-media">
+                 <i class="fab fa-google-plus-g"></i>
+                   </li>
+                </a>
+                <a class="link-social-media" href="#">
+                   <li class="item-social-media">
+                   <i class="fab fa-linkedin-in"></i>
+                   </li>
+                </a>
+               </ul>
+            </div>
+            <p class="description description-second">Ou utilize o seu e-mail para o registro: </p>
+
+            <form class="form" action="/usuario" method="POST">
+               
+                <label class="label-input" for=""> 
+                    <i class="far fa-user icon-modify"></i>
+                    <input type="text" name = "nome" placeholder="Nome" value="${data.nome}">
+                </label>
+               
+                <label class="label-input" for=""> 
+                    <i class="far fa-envelope icon-modify"></i>
+                    <input type="email" name = "email" placeholder="Email" value="${data.email}">
+                </label>
+             
+                <label class="label-input" for=""> 
+                    <i class="fas fa-lock icon-modify"></i>
+                    <input type="password" name = "senha" placeholder="Senha" value="${data.senha}">
+                </label>
+                <button class="btn btn-second">inscrever-se</button>
+            </form>
+        </div>
+       </div> 
+         <!--SEGUNDA PÁGINA-->
+         
+        <div class="content second-content">
+            <div class="first-column">
+            <h2 class="title title-primary"> Olá, amigo!</h2>
+            <p class="description description-primary">Insira seus dados pessoais</p>
+            <p class="description description-primary">e comece a jornada conosco</p>
+            <button id="signup" class="btn btn-primary">inscrever-se</button>
+        </div>
+            <div class="second-column">
+                <h2 class="title title-second">Entrar Na Sua Conta</h2>
+               <div class="social-media">
+               <ul class="list-social-media">
+                <a class="link-social-media" href="/">
+                   <li class="item-social-media">
+                       <i class="fab fa-facebook-f"></i>
+                   </li>
+                </a>
+                <a class="link-social-media" href="/">
+                   <li class="item-social-media">
+                 <i class="fab fa-google-plus-g"></i>
+                   </li>
+                </a>
+                <a class="link-social-media" href="/">
+                   <li class="item-social-media">
+                   <i class="fab fa-linkedin-in"></i>
+                   </li>
+                </a>
+               </ul>
+            </div>
+                <p class="description description-second">Ou utilize o seu e-mail para o registro: </p>
+               <form class="form">
+               
+                <label class="label-input" for=""> 
+                    <i class="far fa-envelope icon-modify"></i>
+                    <input type="email" placeholder="Email">
+                </label>
+             
+                <label class="label-input" for=""> 
+                    <i class="fas fa-lock icon-modify"></i>
+                    <input type="password" placeholder="Senha">
+                </label>
+                <a class="password" href="/">Esqueceu sua senha?</a>
+                <button href="/5" class="btn btn-second" >Entrar</button>
+            </form>
+           
+            </div>
+        </div>
+    </div>
+
+<script src="./app.js"></script>
+
+        </body>
+        </html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Cronometro</title>
+</head>
+
+<style>
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+    h2{
+    font-size: 35px;
+    font-family: 'Nunito';
+    font-weight: bolder;
+    position: absolute;
+    color: white;
+    left: 558px;
+    top: 130px;
+    text-shadow: 2px 2px 2px black;
+
+}
+    body {
+        background-color: #c7d6d5;
+    }
+
+    .max-width {
+        max-width: 700px;
+        width: 100%;
+        padding: 180px;
+        box-sizing: border-box;
+        margin-top: 5%;
+        background-color: #0DCEC3;
+        box-shadow: 0 0 5px rgb(26, 25, 25);
+        text-align: center;
+        border-radius: 15px;
+        
+    }
+
+    h1 {
+        font-family: Arial;
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 20px;
+        border: none;
+        outline: none;
+        font-family: 'Arial';
+        font-size: 1.1em;
+        transition: all .5s;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+
+    button:hover {
+        background-color: #a1c0d1;
+    }
+
+    button:active {
+        background-color: #111;
+    }
+
+    .bg-green {
+        background-color: #1f12d1;
+    }
+
+    .bg-yellow {
+        background-color: #3540df;
+    }
+
+    .bg-red {
+        background-color: #4d3ddd;
+    }
+
+</style>
+
+<body>
+<h2>Iniciar contagem</h2>
+    <div class="max-width">
+        <button onclick="start();" class="bg-green">Iniciar</button>
+        <button onclick="pause();" class="bg-yellow">Pausar</button>
+        <button onclick="stop();" class="bg-red">Parar</button>
+        <h1 id="counter">00:00:00</h1>
+    </div>
+
+    <a href="/5" style="top: 520px; left: 850px; position: absolute;" class="black waves-light btn">Próximo<i class="material-icons right">arrow_forward</i></a>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="cronometro.js"></script>
+</body>
+
+</html>

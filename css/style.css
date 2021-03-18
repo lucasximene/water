@@ -1,0 +1,157 @@
+.FotoAgua{ 
+    display: inline-block;
+    margin-left: 235px;
+    margin-right: auto;
+     width: 650pt;
+     height: 460pt;
+     border-radius: 15pt; 
+     background: url(./images/copoLogo.jpg);
+    background-repeat: round;
+    position: absolute;
+    box-shadow: 0 0 5px rgb(26, 25, 25);
+    }
+
+   #pag-inicial{
+       font-size: 50px;
+       font-family: 'News Cycle', sans-serif;
+       position: absolute;
+       left: 447px;
+       top: 34px;
+       text-shadow: 2px 2px 2px black;
+   }
+
+
+#frase{
+    font-size: 115px;
+    position: absolute;
+    left: 331px;
+    top: 135px;
+    font-family: 'Rouge Script', cursive;
+    background: linear-gradient( #33D7FB, #000000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(1, 0, 0, .5);
+    font-weight: bolder;
+    text-shadow:5px 5px 5px;
+  
+}
+
+#inicial1{
+    font-size: 30px;
+    position: absolute;
+    font-family: 'News Cycle', sans-serif;
+    top: 250px;
+    left: 285px;
+    color: #072242;
+}
+
+#inicial2{
+    font-size: 30px;
+    position: absolute;
+    font-family: 'News Cycle', sans-serif;
+    bottom: 225px ;
+    left: 445px;
+    color: #072242;
+}
+
+#inicial3{
+    font-size: 30px;
+    position: absolute;
+    font-family: 'News Cycle', sans-serif;
+    bottom: 185px ;
+    left: 285px;
+    color: #072242;
+}
+
+.copo1{
+    width: 40px;
+    height: 40px;
+    left: 255px;
+    position: absolute;
+    bottom: 140px;
+}
+
+.copo2{
+    width: 40px;
+    height: 40px;
+    left: 288px;
+    position: absolute;
+    bottom: 140px;
+}
+
+.copo3{
+    width: 40px;
+    height: 40px;
+    left: 255px;
+    position: absolute;
+    bottom: 80px;
+}
+
+.copo4{
+    width: 40px;
+    height: 40px;
+    left: 255px;
+    position: absolute;
+    bottom: 25px;
+}
+
+#explica1{
+font-size: 25px;
+position: absolute;
+font-family: 'News Cycle', sans-serif;
+bottom: 149px;
+left: 333px;
+color: black;
+text-shadow: 2px 2px 2px #112BB5;
+
+}
+
+#explica2{
+font-size: 15px;
+position: absolute;
+font-family: 'News Cycle', sans-serif;
+color: whitesmoke;
+left: 332px;
+bottom: 133px;
+text-shadow: 2px 2px 2px black;
+}
+
+#explica3{
+    font-size: 25px;
+    font-family: 'News Cycle', sans-serif;
+    position: absolute;
+    left: 332px;
+    bottom: 90px;
+    color: black;
+    text-shadow: 2px 2px 2px #112BB5;
+}
+
+#explica4{
+    font-size: 15px;
+    font-family: 'News Cycle', sans-serif;
+    position: absolute;
+    color: whitesmoke;
+    left: 332px;
+    bottom: 73px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#explica5{
+    font-size: 25px;
+    font-family: 'News Cycle', sans-serif;
+    position: absolute;
+    left: 332px;
+    bottom: 35px;
+    text-shadow: 2px 2px 2px #112BB5;
+}
+
+
+#explica6{
+    font-size: 15px;
+    font-family: 'News Cycle', sans-serif;
+    position: absolute;
+    color: whitesmoke;
+    left: 332px;
+    bottom: 17px;
+    text-shadow: 2px 2px 2px black;
+}
